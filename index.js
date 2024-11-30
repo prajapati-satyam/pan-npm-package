@@ -81,4 +81,4 @@ function panValid(pan) {
 }
 
 
-export default panValid;
+module.exports = panValid;
