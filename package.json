@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "this is package that validate is pan card number is in proper format or not , this is not check that pan card is exist or not , and not store any type of data ",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "node index.js"
   },
