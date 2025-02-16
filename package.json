@@ -12,7 +12,10 @@
     "url": "git+https://github.com/prajapati-satyam/pan-npm-package.git"
   },
   "keywords": [
-    "pancard validator"
+    "pancard validator",
+    "pancard",
+    "pan",
+    "card"
   ],
   "author": "satyam prajapati",
   "license": "Apache-2.0",
