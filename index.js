@@ -44,20 +44,18 @@ function panValid(pan) {
             } else {
               warning = "pan card all letters must be capital"
             }
-               
             let obj = {
               pass: true,
               status: 'pass',
               mess,
-              input, 
-              output, 
+              input,
+              output,
               warning
             }
             // return mess = 'all ok'
             return obj
           } else {
             // return mess = 'failed'
-            return fail
             return fail
           }
         } else {
@@ -73,7 +71,6 @@ function panValid(pan) {
       fail.mess = `pan length must be 10 digit and your pan length is ${splitPan.length}`
       return fail;
     }
-    console.log(splitPan)
   } else {
     fail.mess = 'input must be in string format'
     return fail;
